@@ -104,6 +104,7 @@ input {
 .desc-container {
   display: flex;
   justify-content: space-between;
+  margin: 20px auto;
 }
 
 .desc-item {
@@ -114,3 +115,12 @@ input {
 .desc-item:nth-child(1){background: lightskyblue}
 .desc-item:nth-child(2){background: darkseagreen}
 .desc-item:nth-child(3){background: mediumpurple}
+
+footer {
+  background: #1193db;
+  color: #fff;
+}
+
+footer .desc {
+  padding: 15px;
+}

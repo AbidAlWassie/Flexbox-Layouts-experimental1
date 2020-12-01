@@ -36,7 +36,11 @@ body {
 
 .container {
   max-width: 1400px;
-  margin: auto;
+  margin: 20px auto;
+}
+
+.container:last-child {
+  margin-bottom: 0;
 }
 
 header {
@@ -146,6 +150,20 @@ input {
 
 .desc-item:nth-child(3) {
   background: mediumpurple;
+}
+
+.fixed-layouts-container {
+  display: flex;
+  background: #117ddb;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.num-item {
+  font-size: 2em;
+  color: #fff;
+  background: #3e3e3e;
+  padding: 30px;
 }
 
 footer {

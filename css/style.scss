@@ -4,56 +4,29 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #a5a5a5;
 }
 
-header,
-.main-content,
-.sidebar,
-footer {
-  padding: 2em;
+.heading .header {
+  font-weight: bold;
 }
 
-header { background: #41D3BD; }
-.main-content { background: #DE6449;}
-.sidebar { background: #407899;}
-footer { background: #694D75;}
-
-.grid-container {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 4.5em 1fr 4.5em;
-  grid-template-areas:
-    "header header header"
-    "...... main   ....."
-    "...... side   ....."
-    "footer footer footer";
+.input-container {
+  font-size: 18px;
+  background: #e3e3e3;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 750px;
+  /*min-height: 150px;*/
 }
 
-header {
-  grid-area: header;
+input {
+  font-size: 18px;
 }
 
-.main-content {
-  grid-area: main;
+.form-row {
+  padding: 10px 0;
 }
 
-.sidebar {
-  grid-area: side;
-}
-
-footer {
-  grid-area: footer;
-}
-
-//header, footer {
-//  grid-column: 1 / 5;
-//}
-//
-//.main-content {
-//  grid-column: 2 / 3;
-//}
-//
-//.sidebar {
-//  grid-column: 3/4;
-//}
+/*# sourceMappingURL=style.css.map */

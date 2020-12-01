@@ -4,9 +4,29 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #a5a5a5;
 }
 
+.heading .header {
+  font-weight: bold;
+}
 
+.input-container {
+  font-size: 18px;
+  background: #e3e3e3;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 750px;
+  /*min-height: 150px;*/
+}
+
+input {
+  font-size: 18px;
+}
+
+.form-row {
+  padding: 10px 0;
+}
 
 /*# sourceMappingURL=style.css.map */

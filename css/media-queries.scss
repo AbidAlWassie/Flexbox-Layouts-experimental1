@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1170px) {
+  .columns-container {
+    flex-direction: column;
+  }
+  .main-column {
+    order: 1 !important;
+  }
+
+  .sidebar-one {
+    order: 2 !important;
+  }
+  .sidebar-two {
+    order: 3 !important;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .desc-container {
+    flex-direction: column;
+  }
+  .desc-item {
+    width: 100% !important;
+  }
+}

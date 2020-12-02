@@ -11,15 +11,12 @@ body {
   //background: #81c17b;
 }
 
+
 .container {
   max-width: 1400px;
   //margin: auto;
   margin: 20px auto;
 }
-
-//.container:first-child {
-//  margin-top: 0;
-//}
 
 .container:last-child {
   margin-bottom: 0;
@@ -63,8 +60,19 @@ ul {
   background: #e3e3e3;
   margin: 20px auto;
   padding: 20px;
-  max-width: 750px;
-  /*min-height: 150px;*/
+  display: flex;
+}
+
+.input-container h2 {
+  margin: 0;
+}
+
+.input-container .first-half {
+  flex: 1;
+}
+
+.input-container .second-half {
+  flex: 4;
 }
 
 input {
